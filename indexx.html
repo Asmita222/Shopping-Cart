@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website - Shopping Cart</title>
+    <!-- Link To Css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- using box icon link-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <!-- Cart-icon-->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!--Content-->
+                <div class="cart-content">
+
+                    <div class="cart-box">
+                        <img src="image/camera.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Camera</div>
+                            <div class="cart-price">$300</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <!--Remove cart-->
+                        <i class='bx bxs-trash-alt cart-remove' ></i>
+                    </div>
+                </div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$300</div>
+                </div>
+                <!--Buy Button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!--Cart close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+<!--Shop-->
+   <section class="shop container">
+       <h2 class="section-title">Shop Products</h2>
+       <!-- Content-->
+       <div class="shop-content">
+        <!--Box 1-->
+        <div class="product-box">
+            <img src="image/phone.jpg" alt="" class="product-img">
+            <h2 class="product-title">IPhone 13</h2>
+            <span class="price">$750</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+        <!--Box 2-->
+        <div class="product-box">
+            <img src="image/playstation.jpg" alt="" class="product-img">
+            <h2 class="product-title">playstation</h2>
+            <span class="price">$50</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+        <!--Box 3-->
+        <div class="product-box">
+            <img src="image/camera.jpg" alt="" class="product-img">
+            <h2 class="product-title">Camera</h2>
+            <span class="price">$300</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>       
+        <!--Box 4-->
+        <div class="product-box">
+            <img src="image/mouse.jpg" alt="" class="product-img">
+            <h2 class="product-title">logitech mouse</h2>
+            <span class="price">$70</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>       
+        <!--Box 5-->
+        <div class="product-box">
+            <img src="image/alexa.jpg" alt="" class="product-img">
+            <h2 class="product-title">Alexa</h2>
+            <span class="price">$90</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>       
+        <!--Box 6-->
+        <div class="product-box">
+            <img src="image/samsung.jpg" alt="" class="product-img">
+            <h2 class="product-title">Samsung Galaxy</h2>
+            <span class="price">$650</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>  
+        <!--Box 7-->
+        <div class="product-box">
+            <img src="image/airpods.jpg" alt="" class="product-img">
+            <h2 class="product-title">Airpods</h2>
+            <span class="price">$750</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>       
+        <!--Box 8-->
+        <div class="product-box">
+            <img src="image/laptop.jpg" alt="" class="product-img">
+            <h2 class="product-title">Laptop</h2>
+            <span class="price">$900</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>       
+        <!--Box 9-->
+        <div class="product-box">
+            <img src="image/charger.jpeg" alt="" class="product-img">
+            <h2 class="product-title">Charger</h2>
+            <span class="price">$70</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+        <!--Box 10-->
+        <div class="product-box">
+            <img src="image/pendrive.jpg" alt="" class="product-img">
+            <h2 class="product-title">Pendrive</h2>
+            <span class="price">$50</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>                                 
+      </div>
+   </section>
+    <!--link with Js-->
+    <script src="main.js"></script>
+</body>
+</html>
